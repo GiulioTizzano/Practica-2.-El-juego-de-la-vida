@@ -43,7 +43,7 @@ public class Tablero{
     }
 
     public void generarEstadoActualPorMonteCarlo(){
-        for(int i = 0; i < DIMENSION; i++){
+        for(int i = 0; i < DIMENSION + 2; i++){
             estadoActual[i][0] = 0;
                 estadoActual[i][DIMENSION + 1] = 0;
                 estadoActual[0][i] = 0; 
